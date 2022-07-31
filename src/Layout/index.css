@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top {
+    flex: 1;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+}
+
+.bottom {
+    flex: 2;
+}

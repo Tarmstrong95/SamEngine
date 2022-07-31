@@ -1,0 +1,23 @@
+.panel {
+    background-color: #111;
+    height: 100vh;
+    color: #888;
+    overflow-y: scroll;
+    flex-shrink: 0;
+    display: flex;
+}
+.resizer {
+    width: 5px;
+    height: 100%;
+    background-color: #8cca;
+    border: 1px solid #8cca;
+}
+.resizer:hover {
+    cursor:grab;
+    border: 1px solid white;
+    transition: border .2s;
+    background-color: #8cc;
+}
+.resizer:active {
+    cursor: grabbing;
+}

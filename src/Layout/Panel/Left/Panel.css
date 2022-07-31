@@ -1,0 +1,5 @@
+.leftPanel {
+    min-width: 20px;
+    justify-content: flex-end;
+    flex-direction: unset;
+}
